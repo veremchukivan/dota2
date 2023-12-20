@@ -284,6 +284,7 @@ footer {
     font-size: 2.4em;
     flex-direction: row;
     margin-top: 0.5em;
+  
   }
   .social i {
     color: #bac6d9;
@@ -293,7 +294,42 @@ footer {
 
 
 
-
+  .modalcookies {
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    background-color: gray;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .modalcookies .modal-footer {
+    background-color: #500505;
+  }
+  .btn-primary {
+    background-color: white;
+    color: #500505;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #e1e1e1;
+    border: none;
+    color: #500505;
+  }
+  .modal-header {
+    border-bottom: none;
+    padding-top: 25px;
+  }
+  .modalcookies img {
+    width: 100px;
+  }
+  .modalcookies .modal-body {
+    display: flex;
+  }
+  .modalcookies p {
+    width: 60%;
+  }
 
 
 
